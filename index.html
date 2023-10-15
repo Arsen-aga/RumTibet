@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main class="wrapper">
+        <div class="header">
+            <div class="container">
+                <div class="header-top">
+                    <a href="#" class="logo-link"><img class="logo-img" src="image/header/logo.png" alt="logo"></a>
+                    <nav class="nav">
+                        <ul class="nav-list">
+                            <li class="nav-item"><a href="#" class="nav-item_link">Главная</a></li>
+                            <li class="nav-item"><a href="#" class="nav-item_link">Про гида</a></li>
+                            <li class="nav-item"><a href="#" class="nav-item_link">Программа тура</a></li>
+                            <li class="nav-item"><a href="#" class="nav-item_link">Стоимость</a></li>
+                            <li class="nav-item"><a href="#" class="nav-item_link">Блог</a></li>
+                            <li class="nav-item"><a href="#" class="nav-item_link">Контакты</a></li>
+                            <li class="nav-item"><button class="nav-item_but">Консультация</button></li>
+                        </ul>
+                    </nav>
+                </div>
+                <h1 class="header-title">Насладись прогулкой в горах<br>с командой единомышленников</h1>
+                <div class="header-filter">
+                    <div class="header-list arrow">
+                        <select class="header-filter_list" name="location">
+                            <option class="header-filter_item" value="1">Локация для тура</option>
+                            <option class="header-filter_item" value="2">Горячие</option>
+                            <option class="header-filter_item" value="3">Десертные</option>
+                            <option class="header-filter_item" value="4">Диджестивы</option>
+                            <option class="header-filter_item" value="5">Молочные</option>
+                            <option class="header-filter_item" value="6">Слоистые</option>
+                        </select>
+                        <p class="header-filter_text">выберите из списка</p>
+                    </div>
+                    <div class="header-list calendar">
+                        <select class="header-filter_list" name="date">
+                            <option class="header-filter_item" value="1">Дата похода</option>
+                            <option class="header-filter_item" value="2">Горячие</option>
+                            <option class="header-filter_item" value="3">Десертные</option>
+                            <option class="header-filter_item" value="4">Диджестивы</option>
+                            <option class="header-filter_item" value="5">Молочные</option>
+                            <option class="header-filter_item" value="6">Слоистые</option>
+                        </select>
+                        <p class="header-filter_text">укажите диапазон</p>
+                    </div>
+                    <div class="header-list arrow">
+                        <select class="header-filter_list" name="people">
+                            <option class="header-filter_item" value="1">Участники</option>
+                            <option class="header-filter_item" value="2">Горячие</option>
+                            <option class="header-filter_item" value="3">Десертные</option>
+                            <option class="header-filter_item" value="4">Диджестивы</option>
+                            <option class="header-filter_item" value="5">Молочные</option>
+                            <option class="header-filter_item" value="6">Слоистые</option>
+                        </select>
+                        <p class="header-filter_text">минимум 4 человека</p>
+                    </div>
+                    <div class="header-filter_button">
+                        <input type="submit" class="header-filter_btn" value="Найти программу">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hike">
+            <div class="container">
+                <div class="hike-inner">
+                    <div class="hike-videos">
+                        <div class="hike-video video-first">
+                            <img class="hike-video_image" src="image/hike/video-1.jpg" alt="video">
+                            <a href="#" class="hike-video_link">
+                                <svg width="15" height="16" viewBox="0 0 15 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M3.24267 0.655715C2.96389 0.496474 2.64819 0.413232 2.32714 0.414317C2.00609 0.415402 1.69096 0.500775 1.41326 0.661897C1.13557 0.823018 0.905057 1.05424 0.744785 1.33242C0.584513 1.6106 0.500104 1.926 0.5 2.24705V13.7549C0.500104 14.0759 0.584513 14.3913 0.744785 14.6695C0.905057 14.9477 1.13557 15.1789 1.41326 15.34C1.69096 15.5012 2.00609 15.5865 2.32714 15.5876C2.64819 15.5887 2.96389 15.5055 3.24267 15.3462L13.3113 9.59138C13.5917 9.43097 13.8248 9.19931 13.9869 8.91986C14.1489 8.64041 14.2343 8.3231 14.2343 8.00005C14.2343 7.677 14.1489 7.35969 13.9869 7.08024C13.8248 6.80079 13.5917 6.56913 13.3113 6.40872L3.24267 0.655715Z"
+                                        fill="#1A3E3E" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="hike-video video-second">
+                            <img class="hike-video_image" src="image/hike/video-2.jpg" alt="video">
+                            <a href="#" class="hike-video_link">
+                                <svg width="15" height="16" viewBox="0 0 15 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M3.24267 0.655715C2.96389 0.496474 2.64819 0.413232 2.32714 0.414317C2.00609 0.415402 1.69096 0.500775 1.41326 0.661897C1.13557 0.823018 0.905057 1.05424 0.744785 1.33242C0.584513 1.6106 0.500104 1.926 0.5 2.24705V13.7549C0.500104 14.0759 0.584513 14.3913 0.744785 14.6695C0.905057 14.9477 1.13557 15.1789 1.41326 15.34C1.69096 15.5012 2.00609 15.5865 2.32714 15.5876C2.64819 15.5887 2.96389 15.5055 3.24267 15.3462L13.3113 9.59138C13.5917 9.43097 13.8248 9.19931 13.9869 8.91986C14.1489 8.64041 14.2343 8.3231 14.2343 8.00005C14.2343 7.677 14.1489 7.35969 13.9869 7.08024C13.8248 6.80079 13.5917 6.56913 13.3113 6.40872L3.24267 0.655715Z"
+                                        fill="#1A3E3E" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hike-info">
+                        <h2 class="hike-info_title global-title">
+                            о нашем походе
+                        </h2>
+                        <h3 class="hike-info_subtitle global-subtitle">
+                            Исследуйте все горные массивы мира вместе с нами
+                        </h3>
+                        <p class="hike-info_text global-text">
+                            Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух
+                            тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат
+                            Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его
+                            поисками в классической латинской литературе.
+                        </p>
+                        <button class="hike-info_btn global-btn" type="submit">Программа тура</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="offer">
+            <div class="container">
+                <div class="offer-inner">
+                    <div class="offer-info">
+                        <h2 class="offer-info_title global-title">
+                            наше предложение
+                        </h2>
+                        <h3 class="offer-info_subtitle global-subtitle">
+                            Лучшие программы для тебя
+                        </h3>
+                        <p class="offer-info_text global-text">
+                            Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух
+                            тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа.
+                        </p>
+                        <div class="offer-items">
+                            <div class="offer-item offer-item--gid">
+                                <h4 class="offer-item_title">
+                                    Опытный гид
+                                </h4>
+                                <p class="offer-item_text">
+                                    Для современного мира базовый вектор развития предполагает независимые способы
+                                    реализации соответствующих условий активизации.
+                                </p>
+                            </div>
+                            <div class="offer-item offer-item--secure">
+                                <h4 class="offer-item_title">
+                                    Безопасный поход
+                                </h4>
+                                <p class="offer-item_text">
+                                    Для современного мира базовый вектор развития предполагает независимые способы
+                                    реализации соответствующих условий активизации.
+                                </p>
+                            </div>
+                            <div class="offer-item offer-item--price">
+                                <h4 class="offer-item_title">
+                                    Лояльные цены
+                                </h4>
+                                <p class="offer-item_text">
+                                    Для современного мира базовый вектор развития предполагает независимые способы
+                                    реализации соответствующих условий активизации.
+                                </p>
+                            </div>
+                        </div>
+                        <button class="offer-info_btn global-btn" type="submit">Стоимость программ</button>
+                    </div>
+                    <div class="offer-images">
+                        <img class="offer-image" src="image/offer/offer-img1.png" alt="offer image">
+                        <img class="offer-image" src="image/offer/offer-img2.png" alt="offer image">
+                        <img class="offer-image" src="image/offer/offer-img3.png" alt="offer image">
+                        <img class="offer-image" src="image/offer/offer-img4.png" alt="offer image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popular">
+            <div class="container">
+                <div class="popular-inner">
+                    <h2 class="popular-inner_title global-title">
+                        по версии отдыхающих
+                    </h2>
+                    <h3 class="popular-inner_subtitle global-subtitle">
+                        Популярные направления
+                    </h3>
+                    <div class="popular-inner_items">
+                        <div class="popular-item">
+                            <img class="popular-item_image" src="image/popular/popular1.jpg" alt="Lake">
+                            <div class="popular-item_star">
+                                4.9
+                            </div>
+                            <div class="popular-item_bottom">
+                                <div class="popular-item_bottom-info">
+                                    <h4 class="popular-item_bottom-title">
+                                        Озеро возле гор
+                                    </h4>
+                                    <h5 class="popular-item_bottom-description">
+                                        романтическое приключение
+                                    </h5>
+                                </div>
+                                <div class="popular-item_bottom-price">
+                                    480 $
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular-item">
+                            <img class="popular-item_image" src="image/popular/popular2.jpg" alt="Night">
+                            <div class="popular-item_star">
+                                4.5
+                            </div>
+                            <div class="popular-item_bottom">
+                                <div class="popular-item_bottom-info">
+                                    <h4 class="popular-item_bottom-title">
+                                        Ночь в горах
+                                    </h4>
+                                    <h5 class="popular-item_bottom-description">
+                                        в компании друзей
+                                    </h5>
+                                </div>
+                                <div class="popular-item_bottom-price">
+                                    500 $
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular-item">
+                            <img class="popular-item_image" src="image/popular/popular3.jpg" alt="Yoga">
+                            <div class="popular-item_star">
+                                5.0
+                            </div>
+                            <div class="popular-item_bottom">
+                                <div class="popular-item_bottom-info">
+                                    <h4 class="popular-item_bottom-title">
+                                        Йога в горах
+                                    </h4>
+                                    <h5 class="popular-item_bottom-description">
+                                        для тех, кто забоится о себе
+                                    </h5>
+                                </div>
+                                <div class="popular-item_bottom-price">
+                                    230 $
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="popular-inner_btn global-btn" type="submit">Рейтинг направлений</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog">
+            <div class="container">
+                <div class="blog-inner">
+                    <h2 class="blog-inner_title global-title">
+                        по версии отдыхающих
+                    </h2>
+                    <h3 class="blog-inner_subtitle global-subtitle">
+                        Популярные направления
+                    </h3>
+                    <div class="blog-inner_items">
+                        <div class="blog-item">
+                            <img class="blog-item_image" src="image/blog/blog1.jpg" alt="Italy">
+                            <div class="blog-item_info">
+                                <h4 class="blog-item_info-title">
+                                    Красивая Италя, какая она в реальности?
+                                </h4>
+                                <p class="blog-item_info-description">
+                                    Для современного мира базовый вектор развития предполагает независимые способы
+                                    реализации соответствующих условий активизации.
+                                </p>
+                                <div class="blog-item_info-bottom">
+                                    <div class="blog-item_info-date">
+                                        01/04/2023
+                                    </div>
+                                    <div class="blog-item_info-article">
+                                        читать статью
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-item">
+                            <img class="blog-item_image" src="image/blog/blog2.jpg" alt="Open world">
+                            <div class="blog-item_info">
+                                <h4 class="blog-item_info-title">
+                                    Долой сомнения! Весь мир открыт для вас!
+                                </h4>
+                                <p class="blog-item_info-description">
+                                    Для современного мира базовый вектор развития предполагает независимые способы
+                                    реализации соответствующих условий активизации ... независимые способы реализации
+                                    соответствующих усл...
+                                </p>
+                                <div class="blog-item_info-bottom">
+                                    <div class="blog-item_info-date">
+                                        01/04/2023
+                                    </div>
+                                    <div class="blog-item_info-article">
+                                        читать статью
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-item">
+                            <img class="blog-item_image" src="image/blog/blog3.jpg" alt="Traveling">
+                            <div class="blog-item_info">
+                                <h4 class="blog-item_info-title">
+                                    Как подготовиться к путешествию в одиночку?
+                                </h4>
+                                <p class="blog-item_info-description">
+                                    Для современного мира базовый вектор развития предполагает.
+                                </p>
+                                <div class="blog-item_info-bottom">
+                                    <div class="blog-item_info-date">
+                                        01/04/2023
+                                    </div>
+                                    <div class="blog-item_info-article">
+                                        читать статью
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-item">
+                            <img class="blog-item_image" src="image/blog/blog4.jpg" alt="India">
+                            <div class="blog-item_info">
+                                <h4 class="blog-item_info-title">
+                                    Индия ... летим?
+                                </h4>
+                                <p class="blog-item_info-description">
+                                    Для современного мира базовый.
+                                </p>
+                                <div class="blog-item_info-bottom">
+                                    <div class="blog-item_info-date">
+                                        01/04/2023
+                                    </div>
+                                    <div class="blog-item_info-article">
+                                        читать статью
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="blog-btn global-btn">Другие материалы</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="report">
+            <div class="container">
+                <div class="report-inner">
+                    <h2 class="report-inner_title global-title">
+                        фото-отчет
+                    </h2>
+                    <h3 class="report-inner_subtitle global-subtitle">
+                        Делимся впечатлениями
+                    </h3>
+                    <div class="report-inner_items">
+                        <a class="report-item" href="#">
+                            <img class="report-item_image" src="image/report/report1.jpg" alt="report image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21 21L16.657 16.657M16.657 16.657C17.3999 15.9141 17.9892 15.0321 18.3912 14.0615C18.7933 13.0909 19.0002 12.0506 19.0002 11C19.0002 9.94936 18.7933 8.90905 18.3912 7.93842C17.9892 6.96779 17.3999 6.08585 16.657 5.34296C15.9141 4.60007 15.0322 4.01078 14.0615 3.60874C13.0909 3.20669 12.0506 2.99976 11 2.99976C9.94939 2.99976 8.90908 3.20669 7.93845 3.60874C6.96782 4.01078 6.08588 4.60007 5.34299 5.34296C3.84266 6.84329 2.99979 8.87818 2.99979 11C2.99979 13.1217 3.84266 15.1566 5.34299 16.657C6.84332 18.1573 8.87821 19.0002 11 19.0002C13.1218 19.0002 15.1567 18.1573 16.657 16.657ZM11 7.99996V14M7.99999 11H14"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a class="report-item" href="#">
+                            <img class="report-item_image" src="image/report/report2.jpg" alt="report image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21 21L16.657 16.657M16.657 16.657C17.3999 15.9141 17.9892 15.0321 18.3912 14.0615C18.7933 13.0909 19.0002 12.0506 19.0002 11C19.0002 9.94936 18.7933 8.90905 18.3912 7.93842C17.9892 6.96779 17.3999 6.08585 16.657 5.34296C15.9141 4.60007 15.0322 4.01078 14.0615 3.60874C13.0909 3.20669 12.0506 2.99976 11 2.99976C9.94939 2.99976 8.90908 3.20669 7.93845 3.60874C6.96782 4.01078 6.08588 4.60007 5.34299 5.34296C3.84266 6.84329 2.99979 8.87818 2.99979 11C2.99979 13.1217 3.84266 15.1566 5.34299 16.657C6.84332 18.1573 8.87821 19.0002 11 19.0002C13.1218 19.0002 15.1567 18.1573 16.657 16.657ZM11 7.99996V14M7.99999 11H14"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a class="report-item" href="#">
+                            <img class="report-item_image" src="image/report/report3.jpg" alt="report image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21 21L16.657 16.657M16.657 16.657C17.3999 15.9141 17.9892 15.0321 18.3912 14.0615C18.7933 13.0909 19.0002 12.0506 19.0002 11C19.0002 9.94936 18.7933 8.90905 18.3912 7.93842C17.9892 6.96779 17.3999 6.08585 16.657 5.34296C15.9141 4.60007 15.0322 4.01078 14.0615 3.60874C13.0909 3.20669 12.0506 2.99976 11 2.99976C9.94939 2.99976 8.90908 3.20669 7.93845 3.60874C6.96782 4.01078 6.08588 4.60007 5.34299 5.34296C3.84266 6.84329 2.99979 8.87818 2.99979 11C2.99979 13.1217 3.84266 15.1566 5.34299 16.657C6.84332 18.1573 8.87821 19.0002 11 19.0002C13.1218 19.0002 15.1567 18.1573 16.657 16.657ZM11 7.99996V14M7.99999 11H14"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a class="report-item" href="#">
+                            <img class="report-item_image" src="image/report/report4.jpg" alt="report image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21 21L16.657 16.657M16.657 16.657C17.3999 15.9141 17.9892 15.0321 18.3912 14.0615C18.7933 13.0909 19.0002 12.0506 19.0002 11C19.0002 9.94936 18.7933 8.90905 18.3912 7.93842C17.9892 6.96779 17.3999 6.08585 16.657 5.34296C15.9141 4.60007 15.0322 4.01078 14.0615 3.60874C13.0909 3.20669 12.0506 2.99976 11 2.99976C9.94939 2.99976 8.90908 3.20669 7.93845 3.60874C6.96782 4.01078 6.08588 4.60007 5.34299 5.34296C3.84266 6.84329 2.99979 8.87818 2.99979 11C2.99979 13.1217 3.84266 15.1566 5.34299 16.657C6.84332 18.1573 8.87821 19.0002 11 19.0002C13.1218 19.0002 15.1567 18.1573 16.657 16.657ZM11 7.99996V14M7.99999 11H14"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a class="report-item" href="#">
+                            <img class="report-item_image" src="image/report/report5.jpg" alt="report image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21 21L16.657 16.657M16.657 16.657C17.3999 15.9141 17.9892 15.0321 18.3912 14.0615C18.7933 13.0909 19.0002 12.0506 19.0002 11C19.0002 9.94936 18.7933 8.90905 18.3912 7.93842C17.9892 6.96779 17.3999 6.08585 16.657 5.34296C15.9141 4.60007 15.0322 4.01078 14.0615 3.60874C13.0909 3.20669 12.0506 2.99976 11 2.99976C9.94939 2.99976 8.90908 3.20669 7.93845 3.60874C6.96782 4.01078 6.08588 4.60007 5.34299 5.34296C3.84266 6.84329 2.99979 8.87818 2.99979 11C2.99979 13.1217 3.84266 15.1566 5.34299 16.657C6.84332 18.1573 8.87821 19.0002 11 19.0002C13.1218 19.0002 15.1567 18.1573 16.657 16.657ZM11 7.99996V14M7.99999 11H14"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a class="report-item" href="#">
+                            <img class="report-item_image" src="image/report/report6.jpg" alt="report image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21 21L16.657 16.657M16.657 16.657C17.3999 15.9141 17.9892 15.0321 18.3912 14.0615C18.7933 13.0909 19.0002 12.0506 19.0002 11C19.0002 9.94936 18.7933 8.90905 18.3912 7.93842C17.9892 6.96779 17.3999 6.08585 16.657 5.34296C15.9141 4.60007 15.0322 4.01078 14.0615 3.60874C13.0909 3.20669 12.0506 2.99976 11 2.99976C9.94939 2.99976 8.90908 3.20669 7.93845 3.60874C6.96782 4.01078 6.08588 4.60007 5.34299 5.34296C3.84266 6.84329 2.99979 8.87818 2.99979 11C2.99979 13.1217 3.84266 15.1566 5.34299 16.657C6.84332 18.1573 8.87821 19.0002 11 19.0002C13.1218 19.0002 15.1567 18.1573 16.657 16.657ZM11 7.99996V14M7.99999 11H14"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                    <button class="report-inner_btn global-btn">Наш pinterest</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="relevant">
+                    <div class="relevant-info">
+                        <h2 class="relevant-title">
+                            актуально
+                        </h2>
+                        <h3 class="relevant-subtitle">
+                            Получайте полезные рассылки о путешествиях
+                        </h3>
+                    </div>
+                    <form class="relevant-form">
+                        <p class="relevant-form_description">
+                            Введите e-mail адрес
+                        </p>
+                        <div class="relevant_input-block">
+                            <input class="relevant_inpet-email" type="email" placeholder="name@domain.com">
+                            <button class="relevant_input-btn" type="submit">Подписаться на новости</button>
+                        </div>
+                        <p class="relevant-form_text">
+                            подписываясь на новости, вы автоматически соглашаетесь с <a class="relevant-form_text-link"
+                                href="#">условиями обработки
+                                персональных данных</a> и <a class="relevant-form_text-link" href="#">правилами
+                                рекламных рассылок</a>
+                        </p>
+                    </form>
+                </div>
+                <div class="footer-inner">
+                    <div class="footer-inner_item">
+                        <h4 class="footer-inner_item-title">
+                            Компания «РумТибет»
+                        </h4>
+                        <p class="footer-inner_item-text">
+                            Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух
+                            тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney.
+                        </p>
+                        <div class="footer-inner_item-links">
+                            <a class="footer-inner_item-link" href="mailto:">info@domain.com</a>
+                            <a class="footer-inner_item-link" href="tel:+">+7 (123) 456-78-90</a>
+                        </div>
+                        <div class="footer-inner_item-messengers">
+                            <a class="footer-inner_item-mesenger" href="#">
+                                <img class="footer-inner_item-icon" src="image/footer/telegram-icon.svg"
+                                    alt="telegram icon">
+                            </a>
+                            <a class="footer-inner_item-mesenger" href="#">
+                                <img src="image/footer/vk-icon.svg" alt="vk icon">
+                            </a>
+                            <a class="footer-inner_item-mesenger" href="#">
+                                <img class="footer-inner_item-icon" src="image/footer/pinterest-icon.svg"
+                                    alt="pinterest icon">
+                            </a>
+                            <a class="footer-inner_item-mesenger" href="#">
+                                <img class="footer-inner_item-icon" src="image/footer/skype-icon.svg" alt="skype icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-inner_item">
+                        <h4 class="footer-inner_item-title">
+                            Наши услуги
+                        </h4>
+                        <ul class="footer-inner_item-list">
+                            <li class="footer-inner_item-point">
+                                <a href="#" class="footer-inner_item-link">Прогулки в горы летом</a>
+                            </li>
+                            <li class="footer-inner_item-point">
+                                <a href="#" class="footer-inner_item-link">Зимние походы в горы</a>
+                            </li>
+                            <li class="footer-inner_item-point">
+                                <a href="#" class="footer-inner_item-link">Посещение храмов в горах</a>
+                            </li>
+                            <li class="footer-inner_item-point">
+                                <a href="#" class="footer-inner_item-link">Экстремальные виды туризма</a>
+                            </li>
+                            <li class="footer-inner_item-point footer-inner_item-point--active">
+                                <a href="#" class="footer-inner_item-link">Походы в джунглях Амазонии</a>
+                            </li>
+                            <li class="footer-inner_item-point">
+                                <a href="#" class="footer-inner_item-link">Поездка в Африку</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-inner_item">
+                        <h4 class="footer-inner_item-title">
+                            Важно для путешествий
+                        </h4>
+                        <ul class="footer-inner_item-list">
+                            <li class="footer-inner_item-point">
+                                <a href="#" class="footer-inner_item-link">Как собрать в долгий поход?</a>
+                            </li>
+                            <li class="footer-inner_item-point">
+                                <a href="#" class="footer-inner_item-link">Жизненно важные предметы для
+                                    похода</a>
+                            </li>
+                            <li class="footer-inner_item-point">
+                                <a href="#" class="footer-inner_item-link">Медицинская страховка, гарантии
+                                    безопасности</a>
+                            </li>
+                            <li class="footer-inner_item-point">
+                                <a href="#" class="footer-inner_item-link">Если вы врач - загляните сюда</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="footer-bottom_inner">
+                        <p class="footer-bottom_address">ИП Константинопольский К.К., 2023</p>
+                        <a class="footer-bottom_data-processing" href="#">Политика обработки персональных данных</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
